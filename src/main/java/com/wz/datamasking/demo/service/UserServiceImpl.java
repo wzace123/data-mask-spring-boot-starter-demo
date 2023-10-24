@@ -27,6 +27,7 @@ public class UserServiceImpl implements UserService {
         user.setBankCard("6845987565214587");
         user.setIpv4("192.169.31.12");
         user.setIpv6("2001:470:c:1818::2");
+        user.setUserName("user_name");
         return user;
     }
 
