@@ -1,1 +1,1 @@
-# data-masking-demo
+# data-mask-spring-boot-starter-demo
