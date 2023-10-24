@@ -1,6 +1,6 @@
-package com.wz.datamasking.demo.entity;
+package org.wz.datamasking.demo.entity;
 
-import com.wz.datamasking.demo.handler.MyUserNameMaskHandler;
+import org.wz.datamasking.demo.handler.MyUserNameMaskHandler;
 import lombok.Data;
 import org.wz.datamask.annotation.MaskedField;
 import org.wz.datamask.constant.FieldType;

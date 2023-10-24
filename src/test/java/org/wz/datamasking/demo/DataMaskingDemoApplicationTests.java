@@ -1,4 +1,4 @@
-package com.wz.datamasking.demo;
+package org.wz.datamasking.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,10 +1,10 @@
-package com.wz.datamasking.demo.service;
+package org.wz.datamasking.demo.service;
 
-import com.wz.datamasking.demo.entity.PageWrapper;
-import com.wz.datamasking.demo.entity.PageWrapper2;
-import com.wz.datamasking.demo.entity.ResultWrapper;
-import com.wz.datamasking.demo.entity.ResultWrapper2;
-import com.wz.datamasking.demo.entity.User;
+import org.wz.datamasking.demo.entity.PageWrapper;
+import org.wz.datamasking.demo.entity.PageWrapper2;
+import org.wz.datamasking.demo.entity.ResultWrapper;
+import org.wz.datamasking.demo.entity.ResultWrapper2;
+import org.wz.datamasking.demo.entity.User;
 
 public interface UserService {
 

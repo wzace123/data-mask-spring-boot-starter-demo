@@ -1,12 +1,12 @@
-package com.wz.datamasking.demo.controller;
+package org.wz.datamasking.demo.controller;
 
-import com.wz.datamasking.demo.entity.*;
-import com.wz.datamasking.demo.service.UserService;
+import org.wz.datamasking.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.wz.datamask.annotation.Masked;
+import org.wz.datamasking.demo.entity.*;
 
 @RestController
 @RequestMapping("/user")

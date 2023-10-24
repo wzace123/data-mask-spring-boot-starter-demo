@@ -1,4 +1,4 @@
-package com.wz.datamasking.demo.entity;
+package org.wz.datamasking.demo.entity;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.wz.datamasking.demo;
+package org.wz.datamasking.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

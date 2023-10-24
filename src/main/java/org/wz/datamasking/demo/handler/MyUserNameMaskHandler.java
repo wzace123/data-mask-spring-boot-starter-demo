@@ -1,4 +1,4 @@
-package com.wz.datamasking.demo.handler;
+package org.wz.datamasking.demo.handler;
 
 import org.springframework.stereotype.Component;
 import org.wz.datamask.constant.FieldType;

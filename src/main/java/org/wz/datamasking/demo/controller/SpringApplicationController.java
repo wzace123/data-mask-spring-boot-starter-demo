@@ -1,4 +1,4 @@
-package com.wz.datamasking.demo.controller;
+package org.wz.datamasking.demo.controller;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
