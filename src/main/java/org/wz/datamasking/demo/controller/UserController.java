@@ -21,6 +21,14 @@ public class UserController {
         return userService.userInfo();
     }
 
+    @Masked(groups = {"myGroup", "myGroup2"})
+//    @Masked(groups = {"myGroup2"})
+//    @Masked
+    @GetMapping("/userInfoGroupMask")
+    public User userInfoGroupMask() {
+        return userService.userInfo();
+    }
+
     @Masked(value = "data.content")
     @GetMapping("/userPageList1")
     public ResultWrapper<PageWrapper<User>> userPageList1() {

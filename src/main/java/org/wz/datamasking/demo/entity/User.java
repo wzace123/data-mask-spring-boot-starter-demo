@@ -10,11 +10,11 @@ import java.io.Serializable;
 @Data
 public class User implements Serializable {
 
-    @MaskedField(value = FieldType.USER_NAME)
+    @MaskedField(value = FieldType.USER_NAME, groups = {"myGroup"})
     private String name;
-    @MaskedField(value = FieldType.ID_CARD)
+    @MaskedField(value = FieldType.ID_CARD, groups = {"myGroup"})
     private String idCard;
-    @MaskedField(value = FieldType.FIXED_PHONE)
+    @MaskedField(value = FieldType.FIXED_PHONE, groups = {"myGroup", "myGroup2"})
     private String fixedPhone;
     @MaskedField(value = FieldType.MOBILE_PHONE)
     private String mobilePhone;
